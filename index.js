@@ -35,7 +35,7 @@ class Client {
         args.password = this.options.password;
         args.msisdn = this.options.msisdn;
         var url = base_url + '?' + qs.stringify(args);
-        return rp(url);
+        return rp({ 'uri': url, 'json': true });
     }
 }
 
