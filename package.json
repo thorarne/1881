@@ -1,0 +1,24 @@
+{
+  "name": "1881",
+  "version": "1.0.0",
+  "description": "Node.js wrapper for 1881 api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thorarne/1881.git"
+  },
+  "author": "Thor Arne Madland <thorarne@4real.no> (http://4real.no/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thorarne/1881/issues"
+  },
+  "homepage": "https://github.com/thorarne/1881#readme",
+  "dependencies": {
+    "qs": "^6.1.0",
+    "request-promise": "^2.0.1",
+    "underscore": "^1.8.3"
+  }
+}
